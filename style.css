@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#21D4FD, #B721FF);
+    font-family: Arial, Helvetica, SansSerif;
+    color: white;
+}
+
 .container {
     width: 1024px;
     min-height: 300px;
@@ -5,8 +15,11 @@
     margin-right: auto;
 }
 header {
-    min-height: 100px;
-    background-color: #1b661b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 main {
     min-height: 300px;
@@ -14,7 +27,7 @@ main {
     align-items: center;
 }
 .cards {
-    background-color: #20dc20;
+    /*background-color: #20dc20;*/
     min-height: 300px;
     display: flex;
     justify-content: space-between;
@@ -39,4 +52,7 @@ main {
 }
 .herobox2 {
     flex: 1;
+}
+h1 {
+    font-size: 80px;
 }
