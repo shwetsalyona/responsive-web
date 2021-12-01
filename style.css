@@ -28,6 +28,10 @@ main {
     display: flex;
     align-items: center;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 .cards {
     display: flex;
     justify-content: space-between;
@@ -79,4 +83,20 @@ p {
     font-size: 0.85rem;
     line-height: 1.2rem;
     margin: 10px 30px 20px 30px;
+}
+.cards i {
+    font-size: 100px;
+}
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+.button {
+    background-color: white;
+    color: #B721FF;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 6px;
 }
