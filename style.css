@@ -1,5 +1,4 @@
 html {
-    height: 100%;
 }
 
 body {
@@ -104,6 +103,10 @@ p {
     border-radius: 6px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.72);
 }
+.button:hover {
+    background-color: aquamarine;
+    transition-duration: 1s;
+}
 nav a{
     margin-left: 3px;
 }
@@ -121,6 +124,7 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 100px;
 
 }
 
@@ -130,4 +134,12 @@ nav a{
     border: solid white 1px;
     box-sizing: border-box;
     margin-top: 50px;
+
+    /*.tbox :last-child {*/
+    /*    font-size: 0.8rem;*/
+}
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
 }
